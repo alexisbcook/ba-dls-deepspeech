@@ -1,0 +1,6 @@
+LibriSpeech/
+.DS_Store
+.ipynb_checkpoints/
+model/
+model2/
+model3/
