@@ -39,32 +39,31 @@ class AudioGenerator(keras.callbacks.Callback):
         self.cur_train_index = 0
         self.minibatch_size = minibatch_size
         
-    def get_batch(self, index, size, audio_paths, texts):
+    def get_train_features(self):
+        self.features = [self.featurize(a) for a in self.train_audio_paths]
         
-        # pull necessary info from data generator
-        features = [self.featurize(a) for a in audio_paths] # change later to [index:index+size]
-        input_lengths = [f.shape[0] for f in features]
-        max_length = max(input_lengths)
-        feature_dim = features[0].shape[1]
-        max_string_length = max([len(texts[i]) for i in range(len(texts))])
+    def get_batch(self, index, size, audio_paths, texts):
+        # pull necessary info 
+        max_length = max([self.features[index+i].shape[0] for i in range(0, size)])
+        max_string_length = max([len(self.train_texts[index+i]) for i in range(0, size)])
         
         # initialize the arrays
-        X_data = np.zeros([size, max_length, feature_dim])
+        X_data = np.zeros([size, max_length, self.feat_dim])
         labels = np.ones([size, max_string_length]) * 28
         input_length = np.zeros([size, 1])
         label_length = np.zeros([size, 1])
         
         # populate the arrays
         for i in range(0, size):
-            # X_data
-            feat = features[index + i]  
-            feat = self.normalize(feat) # Center using means and std
+            # X_data, input_length
+            feat = self.features[index+i]  
+            input_length[i] = feat.shape[0]
+            feat = self.normalize(feat) 
             X_data[i, :feat.shape[0], :] = feat
 
-            # y, input_length, label_length
+            # y, label_length
             label = np.array(text_to_int_sequence(texts[index + i])) - 1
             labels[i, :len(label)] = label
-            input_length[i] = features[index + i].shape[0]
             label_length[i] = len(label)
             
         # repare and return the arrays
@@ -82,7 +81,7 @@ class AudioGenerator(keras.callbacks.Callback):
             ret = self.get_batch(self.cur_train_index, self.minibatch_size, 
                                  self.train_audio_paths, self.train_texts)
             self.cur_train_index += self.minibatch_size
-            if self.cur_train_index > 1000:
+            if self.cur_train_index >= len(self.train_texts)-self.minibatch_size:
                 self.cur_train_index = 0 
             yield ret
             
@@ -153,63 +152,162 @@ class AudioGenerator(keras.callbacks.Callback):
             max_freq=self.max_freq)
 
     def normalize(self, feature, eps=1e-14):
+        # Center using means and std
         return (feature - self.feats_mean) / (self.feats_std + eps)
+
+audio_gen = AudioGenerator(minibatch_size=20)
+audio_gen.load_train_data('train_corpus.json')
+audio_gen.fit_train(100)
+audio_gen.get_train_features()
+
+size = 1000
+index = 0
+
+max_length = max([audio_gen.features[index+i].shape[0] for i in range(0, size)])
+max_string_length = max([len(audio_gen.train_texts[index+i]) for i in range(0, size)])
+        
+# initialize the arrays
+X_data = np.zeros([size, max_length, audio_gen.feat_dim])
+labels = np.ones([size, max_string_length]) * 28
+input_length = np.zeros([size, 1])
+label_length = np.zeros([size, 1])
+
+for i in range(0, size):
+    # X_data, input_length
+    feat = audio_gen.features[index+i]  
+    feat = audio_gen.normalize(feat) 
+    input_length[i] = conv_output_length(max_length, filter_size=11, border_mode='valid', stride=2)
+    X_data[i, :feat.shape[0], :] = feat
+
+    # y, label_length
+    label = np.array(text_to_int_sequence(audio_gen.train_texts[index + i])) - 1
+    labels[i, :len(label)] = label
+    label_length[i] = 133
+
+def decode_batch(test_func, audio):
+    out = test_func([audio])[0]
+    ret = []
+    for j in range(out.shape[0]):
+        out_best = list(np.argmax(out[j, :], 1))
+        out_best = [k for k, g in itertools.groupby(out_best)]
+        # 26 is space, 27 is CTC blank char
+        outstr = ''
+        for c in out_best:
+            if c >= 0 and c < 26:
+                outstr += chr(c + ord('a'))
+            elif c >= 26:
+                outstr += ' '
+        ret.append(outstr)
+    return ret
+
+class VizCallback(keras.callbacks.Callback):
+        
+    def on_epoch_end(self, epoch, logs=None):
+        print('\n true: ', audio_gen.train_texts[0])
+        pred_ints = (K.eval(K.ctc_decode(to_softmax.predict(np.expand_dims(X_data[0], axis=0)), input_length[0])[0][0]) +1).flatten().tolist()
+        print('predicted: ',''.join(int_to_text_sequence(pred_ints)))
+        print('\n true: ', audio_gen.train_texts[size-1])
+        pred_ints = (K.eval(K.ctc_decode(to_softmax.predict(np.expand_dims(X_data[size-1], axis=0)), input_length[0])[0][0]) +1).flatten().tolist()
+        print('predicted: ',''.join(int_to_text_sequence(pred_ints)))
+
+char_map_str = """
+' 1
+<SPACE> 2
+a 3
+b 4
+c 5
+d 6
+e 7
+f 8
+g 9
+h 10
+i 11
+j 12
+k 13
+l 14
+m 15
+n 16
+o 17
+p 18
+q 19
+r 20
+s 21
+t 22
+u 23
+v 24
+w 25
+x 26
+y 27
+z 28
+"""
+char_map = {}
+index_map = {}
+for line in char_map_str.strip().split('\n'):
+    ch, index = line.split()
+    char_map[ch] = int(index)
+    index_map[int(index)] = ch
+index_map[2] = ' '
+
+def int_to_text_sequence(int_seq):
+    """ Use a character map and convert integer to an text sequence """
+    text_seq = []
+    for c in int_seq:
+        ch = index_map[c]
+        text_seq.append(ch)
+    return text_seq
 
 def ctc_lambda_func(args):
     y_pred, labels, input_length, label_length = args
-    # the 2 is critical here since the first couple outputs of the RNN
-    # tend to be garbage:
-    y_pred = y_pred[:, 2:, :]
     return K.ctc_batch_cost(labels, y_pred, input_length, label_length)
 
-def train(input_dim=161, output_dim=29, recur_layers=3, filters=1024, 
-          kernel_size=11, conv_border_mode='valid', conv_stride=2, 
-          initialization='glorot_uniform', minibatch_size=30):
-    
-    # call to data generator
-    audio_gen = AudioGenerator(minibatch_size=minibatch_size)
-    audio_gen.load_train_data('train_corpus.json')
-    audio_gen.fit_train(100)
+input_dim=161
+output_dim=29
+recur_layers=2
+filters=1024
+kernel_size=11
+conv_border_mode='valid'
+conv_stride=2
+initialization='glorot_uniform' 
+minibatch_size=16
    
-    # define the model
-    input_data = Input(name='the_input', shape=(None, input_dim))
-    conv_1d = Conv1D(filters, kernel_size, name='conv1d',
-                     padding=conv_border_mode,
-                     strides=conv_stride, 
-                     kernel_initializer=initialization,
-                     activation='relu')(input_data)
-    output = BatchNormalization(name='bn_conv_1d')(conv_1d)
-    for r in range(recur_layers):
-        output = GRU(filters, activation='linear',
-                     name='rnn_{}'.format(r + 1), kernel_initializer=initialization,
-                     return_sequences=True)(output)
-        bn_layer = BatchNormalization(name='bn_rnn_{}'.format(r + 1))
-        output = bn_layer(output)
+# define the model
+input_data = Input(name='the_input', shape=(None, input_dim))
+conv_1d = Conv1D(filters, kernel_size, name='conv1d',
+                 padding=conv_border_mode,
+                 strides=conv_stride, 
+                 kernel_initializer=initialization,
+                 activation='relu')(input_data)
+output = BatchNormalization(name='bn_conv_1d')(conv_1d)
+for r in range(recur_layers):
+    output = GRU(filters, activation='relu',
+                 name='rnn_{}'.format(r + 1), kernel_initializer=initialization,
+                 return_sequences=True)(output)
+    bn_layer = BatchNormalization(name='bn_rnn_{}'.format(r + 1))
+    output = bn_layer(output)
 
-    # transform NN output to character activations
-    network_output = TimeDistributed(Dense(
-        output_dim, name='dense', kernel_initializer=initialization))(output)
-    y_pred = Activation('softmax', name='softmax')(network_output)
-    Model(inputs=input_data, outputs=y_pred).summary()
-    
-    labels = Input(name='the_labels', shape=[199], dtype='float32')
-    input_length = Input(name='input_length', shape=[1], dtype='int64')
-    label_length = Input(name='label_length', shape=[1], dtype='int64')
-    
-    # CTC loss is implemented in a lambda layer
-    loss_out = Lambda(ctc_lambda_func, output_shape=(1,), name='ctc')(
-        [y_pred, labels, input_length, label_length])
-    
-    model = Model(inputs=[input_data, labels, input_length, label_length], outputs=loss_out)
-    
-    sgd = SGD(lr=0.02, decay=1e-6, momentum=0.9, nesterov=True, clipnorm=5)
-    # the loss calc occurs elsewhere, so use a dummy lambda func for the loss
-    model.compile(loss={'ctc': lambda y_true, y_pred: y_pred}, optimizer=sgd)
-        
-    model.fit_generator(generator=audio_gen.next_train(),
-                        steps_per_epoch=100, #2700//batch_size,
-                        callbacks=[audio_gen],
-                        epochs=1, verbose=1)
+# transform NN output to character activations
+network_output = TimeDistributed(Dense(
+    output_dim, name='dense', kernel_initializer=initialization))(output)
+y_pred = Activation('softmax', name='softmax')(network_output)
 
-if __name__ == '__main__':
-	train()
+to_softmax = Model(inputs=input_data, outputs=y_pred)
+
+the_labels = Input(name='the_labels', shape=(None,), dtype='float32')
+input_lengths = Input(name='input_length', shape=(1,), dtype='int64')
+label_lengths = Input(name='label_length', shape=(1,), dtype='int64')
+
+# CTC loss is implemented in a lambda layer
+loss_out = Lambda(ctc_lambda_func, output_shape=(1,), name='ctc')(
+    [y_pred, the_labels, input_lengths, label_lengths])
+
+model = Model(inputs=[input_data, the_labels, input_lengths, label_lengths], outputs=loss_out)
+
+sgd = SGD(lr=0.02, decay=1e-6, momentum=0.9, nesterov=True, clipnorm=5)
+# the loss calc occurs elsewhere, so use a dummy lambda func for the loss
+model.compile(loss={'ctc': lambda y_true, y_pred: y_pred}, optimizer=sgd)
+
+viz_cb = VizCallback()
+
+model.fit([X_data, labels, input_length, label_length], np.zeros([size]),
+          batch_size=20, epochs=200, callbacks=[viz_cb], validation_split=0.2,
+          verbose=1, shuffle=False)
