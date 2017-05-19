@@ -1,0 +1,729 @@
+1600/1600 [==============================] - 514s - loss: 247.2855 - val_loss: 243.9343
+Epoch 6/200
+1580/1600 [============================>.] - ETA: 6s - loss: 237.3811
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  ts sssas l sae ae ts ae kt at sa sess sa
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  tad ta s he he ane au ased tad ae an a   ae wae ara s sas ad  ae a s s
+1600/1600 [==============================] - 514s - loss: 237.5358 - val_loss: 281.3855
+Epoch 7/200
+1580/1600 [============================>.] - ETA: 6s - loss: 236.3456
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  wisto to torsestap to so tho to tose sh o lap to wo hes ts to
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  a os ta t a a po oo to at a to a se se o o o wo  sol was toa o ti  te s
+1600/1600 [==============================] - 514s - loss: 236.4807 - val_loss: 268.3449
+Epoch 8/200
+1580/1600 [============================>.] - ETA: 6s - loss: 219.7233
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tho tol er e s a poso  o tho ts s thoe o  to loth he  po to
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  han hors te e te a cot o  o ea and as ta a s s ol fol lon er r sol was ter co en o fs
+1600/1600 [==============================] - 514s - loss: 219.8644 - val_loss: 240.6316
+Epoch 9/200
+1580/1600 [============================>.] - ETA: 6s - loss: 198.4676
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thes to col er wi ssap pla sooo o tha casee s po eer tha o lathenhiess poe po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  the thors met hee bet at pout co eey ot a and as at ho se se ol fho on errii sol wat her co men lo wa
+1600/1600 [==============================] - 514s - loss: 198.5504 - val_loss: 244.8492
+Epoch 10/200
+1580/1600 [============================>.] - ETA: 6s - loss: 191.6770
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  tis to tosteissetas t t tssnr tttis tostto
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  thend tdes tmettes be e pot osy goteet and as ea es so fo odtee sowas ter coeno sss
+1600/1600 [==============================] - 514s - loss: 191.7829 - val_loss: 224.6843
+Epoch 11/200
+1580/1600 [============================>.] - ETA: 6s - loss: 144.2089
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  th te col eri sa ca sl e thi cs s n wr gl  ehis ces po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  te ters we e be e co coe oe and as a e s so fo  err se wa er corin la wh ss
+1600/1600 [==============================] - 514s - loss: 144.3671 - val_loss: 166.0853
+Epoch 12/200
+1580/1600 [============================>.] - ETA: 6s - loss: 127.2216
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thi to col era s pcusl on the cas s n wer l oloon his cost po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  tan ers wet e be ed po co tle e oat er and as a ou se s o fo on er rain so wah her po ren o w s
+1600/1600 [==============================] - 514s - loss: 127.3541 - val_loss: 160.1960
+Epoch 13/200
+1580/1600 [============================>.] - ETA: 6s - loss: 114.6479
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this t co er sa cu sl n toi as s n wer l a tloonhis cospo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  thon gors ly es be end co cole e ot er and as i au se ol fo lon ger raen so was her corengo wot s
+1600/1600 [==============================] - 514s - loss: 114.8182 - val_loss: 159.5554
+Epoch 14/200
+1580/1600 [============================>.] - ETA: 6s - loss: 103.2205
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this to colle eri ss pusoo on tho as s n wher ga poloon his coust po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  tan doers wre os be ad cop cos lhe e got e and as a har se snol fa lon ger ray in sol was her poringo woit ss
+1600/1600 [==============================] - 514s - loss: 103.3454 - val_loss: 160.2146
+Epoch 15/200
+1580/1600 [============================>.] - ETA: 6s - loss: 93.0291
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this ti coue erhi seap clu so em ti ces s n wer gla o lem his cost po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pim dhos e os be end co co le i ot e and as i ou se sknol fo on er a in sou was her o ringla wo ss
+1600/1600 [==============================] - 514s - loss: 93.1410 - val_loss: 161.1987
+Epoch 16/200
+1580/1600 [============================>.] - ETA: 6s - loss: 83.2622
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  tis a clo riea clos a ti class o wr gla cwol a his glos po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  thi thes e os be end co coslye e got a and a i ha se sno fa lan ner ra in so was her aengloe wi ss
+1600/1600 [==============================] - 514s - loss: 83.3529 - val_loss: 164.8938
+Epoch 17/200
+1580/1600 [============================>.] - ETA: 6s - loss: 74.6353
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  wis toer clle erisea closs o thwile clas s on wherd glad fwo lem his goose po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pin theos wed o' beend po cothe e got er and ai i har sem sno falong er rain so was her paingle wi s
+1600/1600 [==============================] - 514s - loss: 74.7763 - val_loss: 174.3414
+Epoch 18/200
+1580/1600 [============================>.] - ETA: 6s - loss: 66.8320
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this ter clolderssa fls emi class o whe r gla prw loem his glost po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  ther dhos we o beend po cuoslhe e got erc ind a i her se slo fa mon der rine so was vere pa ringe wi fs
+1600/1600 [==============================] - 514s - loss: 66.9875 - val_loss: 178.8083
+Epoch 19/200
+1580/1600 [============================>.] - ETA: 6s - loss: 59.8539
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tir collterhssae flustt in thei caste s o woeer glaid rwo loten his goost the
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  thon thoe eto beent cogh costhe e g ot ac ant ais i hasem smoll fal mon derroaine so wash vere tpo crengle wit sis
+1600/1600 [==============================] - 514s - loss: 59.9422 - val_loss: 191.2877
+Epoch 20/200
+1580/1600 [============================>.] - ETA: 6s - loss: 53.4561
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  ist ter colsir hissaepslsttl in theit hlasther s po weerd glrid fro lotsam his cgolostptol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  thon thos wetofs be ant pough cois lhey g out act int is i har shem skol fowld mon er ragin stol wash ver po rmingle wit sris
+1600/1600 [==============================] - 514s - loss: 53.5245 - val_loss: 207.1345
+Epoch 21/200
+1580/1600 [============================>.] - ETA: 6s - loss: 47.9132
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  tas tere cull's erhas tharpe flusttll tem the il chaste skk ko whe ard glard fro o ame his goost to
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  than thos watys be ant pough clitsthe y g out ac and as i ha stheau sko fowil mon derrangin stol was nor tolk inglale whit sis
+1600/1600 [==============================] - 514s - loss: 47.9915 - val_loss: 227.0606
+Epoch 22/200
+1580/1600 [============================>.] - ETA: 6s - loss: 42.6380
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  whst ter qcll' urhis he seplousttllo lf shem the ile tlast las s an whei ard thled fro silcam his glost thoe
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  then theas het s beant pough clitstlhe y gout a' and has i ha semas sknol fowl mon kneragan sol was fheire polk ringlald whit sis
+1600/1600 [==============================] - 514s - loss: 42.6892 - val_loss: 250.3108
+Epoch 23/200
+1580/1600 [============================>.] - ETA: 6s - loss: 38.1056
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  tst tart clt eras sappostol then theil tasttas s an whe ard glad tdou so an his castpo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  ton those atycs pbeant pouphk cotsetlyey gaut aece ant as i hal se smol follon dean so was fere tolk ringlald whit sis
+1600/1600 [==============================] - 514s - loss: 38.1860 - val_loss: 233.0673
+Epoch 24/200
+1580/1600 [============================>.] - ETA: 6s - loss: 34.5501
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mis therc cuuseris esaptostl sthen the il tas s an when arglaagd to soanhis castpo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  tan those tecs pbekant couht cosetlyy gut ac and as i hau seeam snow fal mun dneraan so was veir ta cmingclad whit sis
+1600/1600 [==============================] - 514s - loss: 34.6066 - val_loss: 234.1871
+Epoch 25/200
+1580/1600 [============================>.] - ETA: 6s - loss: 31.1613
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mhis ter cuteras sesapploustll s mital cases an wearglad trwo otam mhis glosepo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon thos atyspeant pogk cosetlyy gout au' and as i hau sem stno falmon deran stto was fer to uringla woet sis
+1600/1600 [==============================] - 514s - loss: 31.1869 - val_loss: 244.7507
+Epoch 26/200
+1580/1600 [============================>.] - ETA: 6s - loss: 28.4088
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his to cel terysespslstll the kme il cas  es snd weer glar to lolcm his custpol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fon thos wytycs bean touh costle  gout acand as i hus sem smow fal mong dheryn sollwas fer to ring l wheth sfis
+1600/1600 [==============================] - 514s - loss: 28.5306 - val_loss: 254.4182
+Epoch 27/200
+1580/1600 [============================>.] - ETA: 6s - loss: 25.8299
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thist ter culseris heapapsloustl the mhe al cases s n werglad towolcan his gosedpol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  tan the s wyty' pean tock closty yagout a'cint as i ha sem s fl mon deran so was fer tock cringlal wht sis
+1600/1600 [==============================] - 514s - loss: 25.9336 - val_loss: 259.9745
+Epoch 28/200
+1580/1600 [============================>.] - ETA: 6s - loss: 23.2903
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  whest toer cillserieshesepplesell the me ilcass the san we arglatw wels f his gaspal
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  tan the s whytys been tough cosetlyego ac and as i ha shem senel fmon deran sel was fer to ringcla wit sise
+1600/1600 [==============================] - 514s - loss: 23.3620 - val_loss: 270.3142
+Epoch 29/200
+1580/1600 [============================>.] - ETA: 6s - loss: 21.4513
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  whist ther celser mies heapplstet o thof thoe il clas s s anf weaagla w wels his glestpl
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  them the se wettecs peen tuc cludsetle gupt ac ind as i ha sem son ff mon derran so was fer tomingckl wa fsie
+1600/1600 [==============================] - 514s - loss: 21.4816 - val_loss: 283.6104
+Epoch 30/200
+1580/1600 [============================>.] - ETA: 6s - loss: 19.1797
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  whised taer ueasar ise eaplosto ofso me ils chlas  thes s an weard gola to weas of his gast lal
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pan thowse wetece peaan cou cosetlegopt ac ind as i ha s em senol fmon deran sto was fer tockmingld whth sise
+1600/1600 [==============================] - 514s - loss: 19.2178 - val_loss: 297.9849
+Epoch 31/200
+1580/1600 [============================>.] - ETA: 6s - loss: 17.8089
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  whist tert wul'ser is sheaplosste of the meil class tes s kcn we aratgla to wu his gluostpo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  tham those wityce pbegant tough closesle got haicf ind as i hav shem seno fwlmonderagang stowas fere toingld whit scise
+1600/1600 [==============================] - 514s - loss: 17.9074 - val_loss: 290.1361
+Epoch 32/200
+1580/1600 [============================>.] - ETA: 6s - loss: 16.2289
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thist ter uulter is haplustu to mhiil chastes k wearvla pro leusf his gestpe
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  han these metyse beagent togk cosewhe agot hea' ind as i ha sheem sofrwomon deragne sowas fere horingkled wot sis
+1600/1600 [==============================] - 514s - loss: 16.2996 - val_loss: 281.8955
+Epoch 33/200
+1580/1600 [============================>.] - ETA: 6s - loss: 15.5236
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thist tor colser is he aplstl o tho mhie il cis es enf weeragldt to wefh his gos lole
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  than those witycs pbecant tou costle got a and as i haw sheenm sodno froowmon derane so was fer homingl wit srirs
+1600/1600 [==============================] - 514s - loss: 15.5617 - val_loss: 280.7976
+Epoch 34/200
+1580/1600 [============================>.] - ETA: 6s - loss: 14.1384
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this toir quuter ryis yap puste if tho mhid il castes in wereaglad tr walfo his guost lol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  then thes vetys bekent taug cousely  got ea ind as i hav seem sofraa mon the rane so was feire ho minclo wh sis
+1600/1600 [==============================] - 514s - loss: 14.2236 - val_loss: 301.7387
+Epoch 35/200
+1580/1600 [============================>.] - ETA: 6s - loss: 13.8978
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tor culter is yeyaplstee u sio the ilcstes enf wearglagd trwo wels ome his kose lo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  thon these they tes bekget tot closete e got a' ind as i heue seme so fron mon beranne so was fere hokringl wit sies
+1600/1600 [==============================] - 514s - loss: 13.9689 - val_loss: 303.0169
+Epoch 36/200
+1580/1600 [============================>.] - ETA: 6s - loss: 12.4335
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tier quulser is esapstllo of the mhi il casess onf were glad p welome his gostpol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon thos whey te's begent tougk coss te gof ar and as i hauv sem sol foon mon deraine so was fir cokmincle whel fis
+1600/1600 [==============================] - 514s - loss: 12.4466 - val_loss: 301.0553
+Epoch 37/200
+1580/1600 [============================>.] - ETA: 6s - loss: 11.6177
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this ter calter iuseapostleo s i the il castask cn wear glad t wlee his clostpcol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon thors weytys pbekent togk cossety cof irc and as i har seeme sol fanl mon berraine so was fher hoe rencled wit sis
+1600/1600 [==============================] - 514s - loss: 11.6716 - val_loss: 304.7739
+Epoch 38/200
+1580/1600 [============================>.] - ETA: 6s - loss: 11.3071
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tur calser usaplosteof the the icasts cnf we ar gla prowelfom his clost lol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon therse waytys peent tougk coseyeagof he'r and as i hav seem so fraow mon dheraine so was feir toeringcle whe fis
+1600/1600 [==============================] - 514s - loss: 11.3569 - val_loss: 310.5609
+Epoch 39/200
+1580/1600 [============================>.] - ETA: 6s - loss: 10.3325
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  ws tir culser iseapstl u tho thi ilcaustess cnd we r gla to el his gcaosplol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon these witys bekcen to cousyte gofh ic and as i hau seeme so frowow mone thererane so was fir tokringle wiet sis
+1600/1600 [==============================] - 514s - loss: 10.3401 - val_loss: 309.5244
+Epoch 40/200
+1580/1600 [============================>.] - ETA: 6s - loss: 9.3759
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thist tor coltor as e ap pclsoof ce miil cases cnd rear glad tow oofe his gost pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon thes wytys beent cogh cos ye eago  and as i herseem so froww mon theran so was fer coringcle whe sis
+1600/1600 [==============================] - 514s - loss: 9.3986 - val_loss: 312.8206
+Epoch 41/200
+1580/1600 [============================>.] - ETA: 6s - loss: 9.2376
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thst ter coltere ise aposoeof the thiilcases cn we are gladpo ekome his costpol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pond therse meytes beket pot cqose e goth  and as i haeve sem so foann mon deraan so was fer homingckled whet fis
+1600/1600 [==============================] - 514s - loss: 9.2493 - val_loss: 311.5251
+Epoch 42/200
+1580/1600 [============================>.] - ETA: 6s - loss: 8.4457
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  histear coter is eaplosteo shof thi l clasess and whear glad pro les me his gclosplal
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pond these whaytys eet tot cos y y got ee and his i he seem so foow mon deran so was fer homingcled whe sres
+1600/1600 [==============================] - 514s - loss: 8.4465 - val_loss: 317.6415
+Epoch 43/200
+1580/1600 [============================>.] - ETA: 6s - loss: 7.6669
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thstir quilter isesapuse i t thi ilk caslus un wheare glapr wilm his gcaostpl
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fon these getys pekent tupt couseegofh and as i huve sem sol froo mon deraind so was feiroringkled whet fis
+1600/1600 [==============================] - 514s - loss: 7.7161 - val_loss: 331.1954
+Epoch 44/200
+1580/1600 [============================>.] - ETA: 6s - loss: 7.3572
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tirc cuilter reseap postoeo ti thiilk castese ind whe er gad to elscome his gost po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  ton those whetys pegent cut coseweegete ind was i hee seem sol frown mon dererain so was fir toringcled whe fis
+1600/1600 [==============================] - 514s - loss: 7.3979 - val_loss: 324.6384
+Epoch 45/200
+1580/1600 [============================>.] - ETA: 6s - loss: 7.3251
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his ter quulter iseapusei so mhle casses cn wreareglae to welsome his casspel
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon those witys bekent oc couts re egout o and as i have seem sol frowwn mon gerrain so was firtorincgled whe sfis
+1600/1600 [==============================] - 514s - loss: 7.3445 - val_loss: 321.3767
+Epoch 46/200
+1580/1600 [============================>.] - ETA: 6s - loss: 6.6398
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  hist tor quultertse aposs of the ml causes and whe ar gld to wefem his goss pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon these vetes eent tot cos he eofh a and as i hav seem so trown mon dereraind so was fir ocrincgald wh firs
+1600/1600 [==============================] - 514s - loss: 6.6592 - val_loss: 322.7884
+Epoch 47/200
+1580/1600 [============================>.] - ETA: 6s - loss: 6.4428
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tor cqculvers heaplese o sthe thiil class cnd whe ar gledpr wilcome his glast o
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  thon thes wetys beentn touc couts treego i and ais i ham sceem sno fow  bun birrain so was fheir pocrinkled whe firs
+1600/1600 [==============================] - 514s - loss: 6.4614 - val_loss: 319.1330
+Epoch 48/200
+1580/1600 [============================>.] - ETA: 6s - loss: 6.1492
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mhis terc celter aise ap pclesee osth ml clauses nd we are glad two ilo his clalspl
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  then thos matys bekgent couc coutsle egatt e and as i hauv seem sol frowol mon derran so was fheir conrincgled whe sis
+1600/1600 [==============================] - 514s - loss: 6.1683 - val_loss: 323.1707
+Epoch 49/200
+1580/1600 [============================>.] - ETA: 6s - loss: 5.8197
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thistir culterise apsustl l th ml clussls and weare gla tr wilom his gluspol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  ven thos wety'bekent tok cotswre egot a and asi have seem so ftrowo mon derrain so was feir tokrenkle whih sirs
+1600/1600 [==============================] - 514s - loss: 5.8292 - val_loss: 323.0169
+Epoch 50/200
+1580/1600 [============================>.] - ETA: 6s - loss: 5.6311
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thistor culteristhe apose of f mn ilk cosses and wre are glad po elom hiss gospol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  vom thes wete's beentn tak cqosreegot e and as in have seem sno frow monderraind so was fir torencgle wheh sfirrs
+1600/1600 [==============================] - 514s - loss: 5.6580 - val_loss: 322.4882
+Epoch 51/200
+1580/1600 [============================>.] - ETA: 6s - loss: 5.4670
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  hist toerc qculter is e aposool f mh ilk clases and whe ar gla pro will om his clos pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pheon thos wetys bekent tock cosre egoft i'r and as ri hav seem so frownd mon there ran so was feir tockringkled whe frirs
+1600/1600 [==============================] - 514s - loss: 5.4783 - val_loss: 332.3440
+Epoch 52/200
+1580/1600 [============================>.] - ETA: 6s - loss: 5.2010
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thisd to qcueuter is he appossl th thile casses nf we are glad po wiokom his gcasspol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon those wetys begaent tot cosere egote an ais i havpe seeom so frow mon derain so was fir horingkle wh fris
+1600/1600 [==============================] - 514s - loss: 5.2164 - val_loss: 335.7291
+Epoch 53/200
+1580/1600 [============================>.] - ETA: 6s - loss: 5.1380
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  misterc qculter ishe apposolf fhe me ilk clussles and weargola two whiophom his glosspo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  vom those wetys beent tocousewe ego  an as i have seem so frowl mon deralne so was fer torinkle wh frs
+1600/1600 [==============================] - 514s - loss: 5.1370 - val_loss: 328.3203
+Epoch 54/200
+1580/1600 [============================>.] - ETA: 6s - loss: 5.1570
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his ter cilter ishe apcosee il tho mid ile cases and re are glagt wilcome his calsd pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pomd those wate's bekent toach costre egoughthe'n and as i hape seem sno frowo on derraane so was fer ptokcringkled who frius
+1600/1600 [==============================] - 514s - loss: 5.1735 - val_loss: 337.2974
+Epoch 55/200
+1580/1600 [============================>.] - ETA: 6s - loss: 4.6987
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  whis tor quiallterishe applusto u fo mi il clases and re rare gla to lollcom his glouspol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  prom these weate's begent couch costre egother in as i have sheem so froawa mon berraane so was fir toarenkgled wh fs
+1600/1600 [==============================] - 514s - loss: 4.7100 - val_loss: 337.9237
+Epoch 56/200
+1580/1600 [============================>.] - ETA: 6s - loss: 4.9009
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mis tor cllveris se apose of the meil classis cnf weare gla p locom his glus pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon these gaty' bekent cock cotseswe  goat ai in is i have seems so frowol mon derraine so was fir tokreingkled wh fis
+1600/1600 [==============================] - 514s - loss: 4.9206 - val_loss: 327.1136
+Epoch 57/200
+1580/1600 [============================>.] - ETA: 6s - loss: 4.4805
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  westor quultery ises aposso l to meil cluasles uand ue are glad t lolkcom his gust lol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  von those waythy's fekenn coc cuoutewe ygo ar and ais i heve seem so foon mone dherraane so was fir hoarinkled whe fs
+1600/1600 [==============================] - 514s - loss: 4.5034 - val_loss: 343.3738
+Epoch 58/200
+1580/1600 [============================>.] - ETA: 6s - loss: 4.3379
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  ast tor quilteris heapustol the moill cassleses and we ar glad p wellcom his glosst po
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  vond these wheythy's beant tot cuousewey y gother and is i heve seem so frowon mon deraan so was fher toringled whthfis
+1600/1600 [==============================] - 514s - loss: 4.3692 - val_loss: 339.6251
+Epoch 59/200
+1580/1600 [============================>.] - ETA: 6s - loss: 4.2228
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  histor quulter ise uppustso l fo mitdill cases and weoure gla t wilkcome his gosst pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  von thes bayte's beken occousry egothae'c and is i have seem sno frooa mon deraan so was fer poringkgled whe fis
+1600/1600 [==============================] - 514s - loss: 4.2453 - val_loss: 344.5449
+Epoch 60/200
+1580/1600 [============================>.] - ETA: 6s - loss: 4.2124
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mister cuilter iste aupousso o the mell closses und wrere glad t wolcom his gclospo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fror thers wayty's fegan cout cqusre e got ar and as i ha seem so froow mon drerain so was fir corinkgled whh fis
+1600/1600 [==============================] - 514s - loss: 4.2251 - val_loss: 343.6617
+Epoch 61/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.9447
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tor qcuulseryis he upostoo th mheil casses nd we are glad to wokme hisgust tpo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  prom thes wety' becent coat cquose ygotaer and as i hu'e seen sow frow  mon dreraane so was fher torencgled with fis
+1600/1600 [==============================] - 514s - loss: 3.9366 - val_loss: 342.4133
+Epoch 62/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.9279
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his tor qcuuledersthe auppussoul the mille casss n rer gla t wos ome hisgoust pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  from thes weyty's bekcant tog cotsty egoat are in ais i have seem snow froa monderrain so was fir corenkgled wh fis
+1600/1600 [==============================] - 514s - loss: 3.9425 - val_loss: 344.5125
+Epoch 63/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.8021
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his tor qcuulterisesappossooht milel classless and rurgla to lolcome his golosst pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  vom thers wety's begent cout cqoutsey ygoter and ais i hae seem so fow monverrane so was fir cokringled whe fis
+1600/1600 [==============================] - 514s - loss: 3.8218 - val_loss: 342.4713
+Epoch 64/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.6483
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  ister qolters te aposso of tho miil classs en wearglag pw wolkcome his glost ol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  thon those watys fbeent ap coseseaego ere and is i have seem so fon mon derraine so was feir cokringled wieh fais
+1600/1600 [==============================] - 514s - loss: 3.6676 - val_loss: 351.5461
+Epoch 65/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.7913
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  histoer qcooterse aposs o sh minlil clusses cn weare glad p wocome his gcossptlol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fon those wyty's begent hougt cousegof he and ais i hale seem so fo  mon deraine so was fair porincled wheh fis
+1600/1600 [==============================] - 514s - loss: 3.8004 - val_loss: 345.9295
+Epoch 66/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.4717
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mistir cutery s te pposo o the meil cases an we aur gld t welcme his cost pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  van these wete's begcan togt cosee egotherc and is i have seem so fol mon deraan so was feir torengcled whe fis
+1600/1600 [==============================] - 514s - loss: 3.4834 - val_loss: 348.7281
+Epoch 67/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.5220
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his tor quulter is the plststol tho meil casses and we argla p wel om his gels plol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  von thos whetes begcenn co cosee egother and ais i huve seem so foo mondherain so was fir corincled wie firrrs
+1600/1600 [==============================] - 514s - loss: 3.5476 - val_loss: 345.4418
+Epoch 68/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.5002
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  hise ter qculteris the aposlel to mel classes and weare glollade twotome his glost pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fan these wete's bekent topt colded fie egatther and as i hu'p seem so foon mon derain so was fir toringkled wo fis
+1600/1600 [==============================] - 514s - loss: 3.5119 - val_loss: 354.9107
+Epoch 69/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.2919
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  miste qcoltoris thesuppousee l fho mil cases n weare glad to lolcme his gosplel
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pand these wety's begant cot cosetygatter and ais i hu'e seem so froon underraan so was fer toringkgled with firs
+1600/1600 [==============================] - 514s - loss: 3.3261 - val_loss: 348.4582
+Epoch 70/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.1808
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  wis torc quoltory es e apousse of o mheil cusses un weareglad po welcom his ces pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pom those metes bekcant opt quookse ecgoat ir and ais i have seem so fol mon deraine so was fir torinkled wih fis
+1600/1600 [==============================] - 514s - loss: 3.1973 - val_loss: 357.1147
+Epoch 71/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.1622
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his tor cuolsery is sesa posso o thom the il cusses nd we are goad to welcome his coust pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  vom those wate's peckant tot cotsee goter and ais i hav seem so fo mon de raine so was fir toringkle with frs
+1600/1600 [==============================] - 514s - loss: 3.1812 - val_loss: 360.5179
+Epoch 72/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.2555
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this torc quelltery isteaposol tom mieil clasess and we are gled to wolcome his gclost pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  hon these weytes bekant tot cqots sreee gatir and is i huve seem smo foo mon deraane so was fer poringkled wi firs
+1600/1600 [==============================] - 514s - loss: 3.2720 - val_loss: 364.3934
+Epoch 73/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.2430
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thist tir qcuollver is se aposlo lf  mheil cases and we are glad to elcome his gclospol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  ven those wayty's beken togt cotsee got her and is ir hav seem sno fowo mon deraine so wash fer poringkgled wi sfars
+1600/1600 [==============================] - 514s - loss: 3.2476 - val_loss: 361.7031
+Epoch 74/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.0705
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  historc cuilteryshe apolsl omilil classes and eoar gola to wilk om his calspl
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fan those wetys begcent coag coseeyygohe an is i have seem so frol  monderaan so was fer porencgled with fis
+1600/1600 [==============================] - 514s - loss: 3.0892 - val_loss: 356.3936
+Epoch 75/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.0492
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  thistor quoltor hes seapos of thi mhe il casss cnd wrear glad to wocome his clospol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pen thos wayty's begent cout cotstrey e gother and as i hav seem sno frow n onderain so was feir porengled wit fsirs
+1600/1600 [==============================] - 514s - loss: 3.0650 - val_loss: 357.7235
+Epoch 76/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.1387
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mistoar qualter is she posso o to mil causes uand we ar gol to we om his cospo
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pen those batys bekan chouh cos re e coherc and as i have seem sno foom one deraine so was foir coringckled woi fis
+1600/1600 [==============================] - 514s - loss: 3.1519 - val_loss: 360.4813
+Epoch 77/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.8142
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his torc q celeters ys sesaposoe o the meil clausses nd whe arekglad to wekome his cospol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  van thes watys bekan chough cots tee egoether int as i have seem sow foon won deraine so was fer corinkled wih firs
+1600/1600 [==============================] - 514s - loss: 2.8106 - val_loss: 356.8928
+Epoch 78/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.9931
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  hister qcull erys se apcoso o tho mheil clase s an wheare gld two well om his gost pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  tan thos thayty's bekant cougt courts sre ygotir ind ais i heve sem sno frown mon derain so was fir corinkgled whe fis
+1600/1600 [==============================] - 514s - loss: 3.0020 - val_loss: 361.2799
+Epoch 79/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.8929
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this terc cullver is the aposso o e mhe ilk cosses an wear gld t wokome his costpol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fen thes weatys becant cop cous re ygouthe and aes i heve seem sno frown mon geraine so was fir crorincgled whe firs
+1600/1600 [==============================] - 514s - loss: 2.8925 - val_loss: 357.5795
+Epoch 80/200
+1580/1600 [============================>.] - ETA: 6s - loss: 3.0215
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this tor clter is sheapposso o fe mhe il class e s and wear glad to wecome his goss o
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fon these wety's bekant fop cos reygoair in ais i have seem seo foonl on deraine so was fir coringkled with firs
+1600/1600 [==============================] - 514s - loss: 3.0220 - val_loss: 350.4772
+Epoch 81/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.7248
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his tor qclvery'as eapos see o o mheil clauss e s an we areglad to lollkome his gose gol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fond thos wetys becann hop cos e ygoeti in as i heum s em smo foon onderaine so was fir poringcgled wie fis
+1600/1600 [==============================] - 514s - loss: 2.7350 - val_loss: 359.9759
+Epoch 82/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.7336
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  tmis torculdery ises aposo l fo milil clases s n we argld to wulcome his cosplol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fam thos beytes bekent cock cos the egoti ind as i heve seem seno fon mon deragane so ws feir copringled with fis
+1600/1600 [==============================] - 514s - loss: 2.7386 - val_loss: 362.2652
+Epoch 83/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.7215
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  is tor cilder s sesapostsol o minil cass ess an we aregld to lelcome his cospol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  ten thos beatys ecant cop cous reygot arc int as i heve seem sno froolm mon berane so wash fir toringcgled whet fsirs
+1600/1600 [==============================] - 514s - loss: 2.7481 - val_loss: 354.0979
+Epoch 84/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.7580
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  is torc qultor is shesapostso if the mid aled clauss es s n weoare gld to welcom his cospel
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fem thos bay tese beantn popcots sretegoter and is i heve seem sno fo  mon dera ne so was fir porenckled whit firs
+1600/1600 [==============================] - 514s - loss: 2.7580 - val_loss: 360.0808
+Epoch 85/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.7066
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  histor coiuteri sesapouoso lf of mid ile classles and we arg gld to wulkom his gostbpel
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  vam those wetes becant cop courts ue y goter and as i have seem'd seno foon mon derangtine so wish fir tocrencgled with firs
+1600/1600 [==============================] - 514s - loss: 2.7159 - val_loss: 359.4910
+Epoch 86/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.6093
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mistinc qulters s se applosololf temidlile closses nf we ar glad tolelcome his gostpol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pan those watys becant copt cous sle yofthair ind as i have seem snol fown on deraine so was fir tocrencled wih fis
+1600/1600 [==============================] - 514s - loss: 2.6284 - val_loss: 364.2404
+Epoch 87/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.7536
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mis tor quulvor his eaposo o to mhelil clases cnf we arglad toleocome his gost pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  von those meyte's becint toc coutsle ecothec ind ais i have seems smno fol n onderane so ws fir porinled wie fis
+1600/1600 [==============================] - 514s - loss: 2.7763 - val_loss: 359.5072
+Epoch 88/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.5005
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mister quoiltery is e aposto of tho mii casses an woe aregolad to woukome his gosst pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  prand thos whytys bekan cot courts e y got a and as i have seem seno fo and on berrain so was fir popcrenbled wih fis
+1600/1600 [==============================] - 514s - loss: 2.5207 - val_loss: 368.5430
+Epoch 89/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.4592
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  is er quulter is te applostoe o fo miillk clases an weare glad po wocome his gosst pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  ven thost wey tese bean popg couseete ot eir and ais i have seem so folon on derraan so was fir porenkle wih sis
+1600/1600 [==============================] - 514s - loss: 2.4701 - val_loss: 374.9877
+Epoch 90/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.5395
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mist ter calser iss ceupposso of fo the il cassles cn wearglad to elcome his gostbol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pend those waytese beckan coac corstse ley egater and as i have seem sno fol an on deranine so was fir pokprincgled with firs
+1600/1600 [==============================] - 514s - loss: 2.5431 - val_loss: 359.3082
+Epoch 91/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.5968
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  his toir qcilter isseapusu i the mhe il classes an wearglad towelcome his gosspol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pan those watyse becann couck cousts re got e and ais i have seem seno fown onderraine so was fer pokrincled with fis
+1600/1600 [==============================] - 514s - loss: 2.6078 - val_loss: 364.1370
+Epoch 92/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.4809
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  this toir celseri seuposlee of fho mhiil clases an we arglad to letome his gosplel
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pon thost tatese becant ouc cuous le ecofte ind as i hauve seem snow foll onderane so wais fior copringkled wi fis
+1600/1600 [==============================] - 514s - loss: 2.5023 - val_loss: 363.7966
+Epoch 93/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.2414
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mistor colter ais seeapussee of fom monlilok clouses cnf wo ar glad to welcome his gosspol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pran those batys becant couct coucs lre egotec and ais i heave seem seno frolul on deragn so wais fer proringcled wie fris
+1600/1600 [==============================] - 514s - loss: 2.2607 - val_loss: 364.0223
+Epoch 94/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.3410
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mis tor qeol erys is se aposee of fho mil classes nf we ar gld to wloufcome his gost pol
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fon those beytys bekant toupt cousele egoutterr ind ais i heve seem seo frolul mon derrain so wash feir porenkle with firs
+1600/1600 [==============================] - 514s - loss: 2.3549 - val_loss: 368.2525
+Epoch 95/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.2719
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mis tor quol er is eaplosso l the mhdil classe s n we ar glad to wel come his gos pl
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  fand thos weytys begcant ought cotsle egotherc and his i have seemed seol fol nl on geraine so waish feir corencgled wit firs
+1600/1600 [==============================] - 514s - loss: 2.2825 - val_loss: 371.1062
+Epoch 96/200
+1580/1600 [============================>.] - ETA: 6s - loss: 2.1837
+ true:  mister quilter is the apostle of the middle classes and we are glad to welcome his gospel
+predicted:  mis tor quuilfer is seaposso l fo milk class es un who are glag to wlocofme his gose pel
+
+ true:  then those ladies began to talk closely together and as i have seen snow fall among the rain so was their talk mingled with sighs
+predicted:  pram those watys begant pogchcosle egother and ais i have seem so folnl monderaine so was fir cokrengled wi fis
+1600/1600 [==============================] - 514s - loss: 2.2177 - val_loss: 365.8056
